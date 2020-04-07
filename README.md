@@ -1,7 +1,7 @@
 # Banker's Algorithm Problem
 This assignment is given as CA 3 for Operating System.
 Question 3: Write a multithreaded program that implements the banker's algorithm. Create n threads that request and release resources from the bank. The banker will grant the request only if it leaves the system in a safe state. It is important that shared data be safe from concurrent access. To ensure safe access to shared data, you can use mutex locks.
-#compile
+# compile
 gcc banker.c -pthread -o Bankers_algorithm
-#execute
+# execute
 ./Bankers_algorithm
